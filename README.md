@@ -1,3 +1,26 @@
+# Ritual Academy – Bootcamp Level 2 Homework
+
+This is my submission for the second bootcamp.
+
+I watched the live session and then went through the code myself to make sure I understood everything.
+
+### What the project is
+A prediction market that can resolve by itself.  
+No one needs to press a button.  
+The Scheduler wakes the contract, the contract reads the price from an oracle, and then settles.
+
+### What I learned
+- Why they use block numbers instead of timestamps
+- How the three retry attempts work
+- How the HTTP and jq precompiles are called
+- How winners get paid without looping through everyone
+
+### Status
+Public testnet already closed when I finished.  
+I reviewed the contracts and scripts carefully.  
+Everything is ready for mainnet.
+
+Thanks to the team for the clear workshop.
 # Ritual Predict
 
 A self-resolving binary prediction market on [Ritual Chain](https://docs.ritualfoundation.org).
